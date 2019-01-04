@@ -37,4 +37,27 @@ var dailyTransaction: [[Float]] = [
 ]
 
 dailyTransaction.first
-dailyTransaction[4].isEmpty 
+dailyTransaction[4].isEmpty
+
+
+ // Agregar diccionarios para metodologia
+
+
+var trasactionsDict : [String: [Float]] = [
+
+    "1nov"  :[20,10,100.0],
+    "2nov"      :[],
+    "3nov"  :[1000],
+    "4nov"  :[],
+    "5nov"  :[10],
+    
+
+
+]
+ // Se imprime el valor del string seleccionado,
+
+//print(trasactionsDict["3nov"])
+print(trasactionsDict.values) //- imprime solo los valores del diccionario
+print(trasactionsDict.isEmpty)// - Pregunta si el elmento esta vacio e imprime esto en valor booleano
+print(trasactionsDict.count) //- Nos imprime cuantos valores y diccionarios hay
+print(trasactionsDict.keys) // - Nos imprime el contenido de los diccionarios
