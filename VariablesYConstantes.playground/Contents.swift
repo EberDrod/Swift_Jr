@@ -1,14 +1,8 @@
 import Foundation
-
-
 // Int - Float
 // Una variable se define con var + NOMBREDELAVARIABLE
 
-var account: Float  = 1000000
-
-
-
-
+var accountTotal: Float = 1_000_000.0
 
 //Tipos de Datos  /
 //Booleanos: Solo tienen dos valores falso y verdadero
@@ -18,11 +12,31 @@ var account: Float  = 1000000
 //Character (Caracter): Es la representación  de una unica letra dentro de texto
 //String: "Representado para cualquier texto"
 
-let Name: String = "tuNombre"
-let LastName: String = "tuApellido"
+let name: String  = "eber"
+let lastName: String = "pena"
 
 
+ // Manipulacion de Strings
+
+let FullName: String  = "\(name) \(lastName)"
+
+print(FullName.capitalized)
+
+accountTotal += 100_000
+
+//accountTotal  = accountTotal + 100_000
+
+print(accountTotal)
 
 
+var account = 1e6
 
+print(account)
 
+// Como trabajar con los tipos de datos exigentes con valores booleanos
+
+//Imprime false hasta agregarle un ! se convierte en True
+
+var isActive = FullName.isEmpty
+
+print(isActive)
