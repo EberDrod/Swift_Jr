@@ -104,7 +104,7 @@ print(trasactionsDict.count) //- Nos imprime cuantos valores y diccionarios hay
 print(trasactionsDict.keys) // - Nos imprime el contenido de los diccionarios
 
 
- ///// Condicionales
+///// Condicionales
 
 //1.-¿Lo que tenemos en l cuenta es igual a un millón?
 
@@ -114,54 +114,13 @@ print(accountTotal)
 
 accountTotal -= 300_000
 
- ///Ejemplo 1
 if accountTotal > 0 {
-        print("Tenemos dinero")
+    print("Tenemos dinero")
     
 } else if accountTotal >  1_000_000{
-            print("Somos ricos")
-}  else if  accountTotal > 0 {
+    print("Somos ricos")
+}  else{
     print("No tenemos dinero")
     
     
-}else{
-    
-        print("No tenemos nada!!!")
-    
 }
- //Esta es lo mismo de la version de
-let hasMoney = accountTotal > 1_000_000 ? "Somos ricos" :"No tenemos dinero"
-
-print(hasMoney)
-
-// Introducción a los switch
-
-var age = 27
-var tax:Float = 1
-
-switch age {
-case 0...17:
-    print("Nose puede dar un atarjeta de crédito")
-case 18...22:
-    tax = 2
-    print("La tasa de interes es del 2%")
-case 24...25:
-    tax = 1.5
-    print("La tasa de interes es del 1.5%")
-default:
-        print("La tasa de interes es del 1%")
-    
-}
-
-
-/// Switch
-
-let BankType = "B"
-
-switch BankType {
-case "B":
-    print("Es el banco  B ")
-default:
-    print("Es otro banco")
-}
-

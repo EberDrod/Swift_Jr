@@ -40,3 +40,32 @@ print(account)
 var isActive = FullName.isEmpty
 
 print(isActive)
+
+ /// Reto
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

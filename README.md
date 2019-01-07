@@ -1,0 +1,1 @@
+-- Algoritmo de finanzas personales dentro de git --

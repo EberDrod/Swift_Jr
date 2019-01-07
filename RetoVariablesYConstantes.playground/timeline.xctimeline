@@ -2,5 +2,10 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/sbl/Developer/%20Projects/Swift%20/RetoVariablesYConstantes.playground#CharacterRangeLen=102&amp;CharacterRangeLoc=154&amp;EndingColumnNumber=0&amp;EndingLineNumber=16&amp;StartingColumnNumber=1&amp;StartingLineNumber=15&amp;Timestamp=568332453.251825"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
